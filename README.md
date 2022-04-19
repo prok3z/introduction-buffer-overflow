@@ -1,6 +1,6 @@
-# Introdução ao Buffer Overflow
-Também conhecido como um transbordamento de dados
+# Introduction to Buffer Overflow
+Also known as a data overflow
 
-é uma falha na qual um atacante externo pode manipular dados e endereços de memoria em tempo de execução para que o programa se comporte de maneira maliciosa trave ou até criar um acesso remoto que não seja autorizado. 
+is a flaw in which an external agent can manipulate data and temporary storage in order for the program to maliciously crash or be able to create a remote that is unauthorized.
 
-Isso acontece pois quando o programa ao escrever dados em um espaço reservado da memoria(buffer), acaba ultrapassando esse limite do buffer e sobrescreve a memoria adjacente. Esse é um simples exemplo de buffer overflow.
+This happens because when the program writes data in a reserved space of memory (buffer), it ends up exceeding this limit of the buffer on the adjacent memory. This is a simple example of a buffer overflow.
